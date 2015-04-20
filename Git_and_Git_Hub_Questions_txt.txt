@@ -1,0 +1,28 @@
+Git and Git Hub Questions:
+--------------------------
+
+1. What is the equivalent git command for when you press the Git Hub app "Sync" button?
+git pull --rebase and if there are local changes git push. This merges local changes with the remote repository.
+
+2. What is the command for seeing the repository history via the command line?
+git status
+
+3. In the Git Hub app, I can "discard changes" to a file by right clicking on it. What's the equivalent command on the terminal?
+git checkout <file name>
+
+4. What does a "pull request" actually do?
+"pull request" on github means “merge"
+
+5. What does a .gitignore file do? 
+ignore - files that you don’t ever want to add to your repository
+
+6. Why is a .gitignore file useful?
+Keeping your history clean. Casting out unwanted or unnecessary files.
+
+
+7. What is "Open Source" software?
+Direct from Wikipedia: “Generally, open source refers to a computer program in which the source code is available to the general public for use and/or modification from its original design. Open-source code is meant to be a collaborative effort, where programmers improve upon the source code and share the changes within the community.”
+
+8. How can "Open Source" software help me with my final project?
+It will allow me to draw on preexisting code which already works/has been bug checked.
+
